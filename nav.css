@@ -34,6 +34,7 @@
   padding: 12px;
   text-align: center;
   font-family: Roboto;
+  user-select: none;
 }
 
 .navbar li a {
