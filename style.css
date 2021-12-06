@@ -21,6 +21,15 @@
   pointer-events: none;
 }
 
+.subtitle {
+  text-align: center;
+  font-family: Riffic;
+  color: var(--main-color);
+  font-size: 200%;
+  user-select: none;
+  pointer-events: none;
+}
+
 .tcenter {
   text-align: center;
 }
