@@ -9,14 +9,14 @@
 }
 
 .bg {
-    background: #0D1117;
+    background: #0d1117;
 }
 
 .title {
   text-align: center;
   font-family: Riffic;
   color: var(--main-color);
-  font-size: 269%;
+  font-size: 369%;
   user-select: none;
   pointer-events: none;
 }

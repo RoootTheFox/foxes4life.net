@@ -4,14 +4,24 @@
     <meta charset="utf-8">
     <title>Rooot's Website</title>
     <meta name="description" content="random website i use for stuff">
-    <link rel="icon" href="assets/rooot.png" type="image/png"/>
+    <link rel="icon" href="/assets/rooot.png" type="image/png"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/nav.css">
+    <script src="/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   </head>
-  <body class="bg">
-    <p class="title">Rooot's Website</p>
-    <p class="text tcenter">random website i use for stuff</p>
-    <p class="text tcenter">might add stuff here someday...</p>
-    <p class="text tcenter"> - RoootTheFox</p>
+  <header>
+    <div class="navbar-chonk">
+      <ul class="navbar">
+        <li><div class="navbar-content"><a onclick="loadPage('/')">[Home]</a></div></li>
+        <li><div class="navbar-content"><a onclick="loadPage('/owo')">[owo]</a></div></li>
+        <li><div class="navbar-content"><a href="uwu">[uwu]</a></div></li>
+      </ul>
+    </div>
+  </header>
+  <br>
+  <body class="bg" onload="loadPage("");">
+    <div id="content"></div>
   </body>
 </html>
