@@ -1,0 +1,40 @@
+:root {
+  --main-color: #ff7700;
+  --footer-size: 24px;
+}
+
+@font-face {
+   font-family: 'Riffic';
+   src: url(assets/RifficFree-Bold.ttf);
+}
+
+.bg {
+    background: #0d1117;
+}
+
+.title {
+  text-align: center;
+  font-family: Riffic;
+  color: var(--main-color);
+  font-size: 369%;
+  user-select: none;
+  pointer-events: none;
+}
+
+.subtitle {
+  text-align: center;
+  font-family: Riffic;
+  color: var(--main-color);
+  font-size: 200%;
+  user-select: none;
+  pointer-events: none;
+}
+
+.tcenter {
+  text-align: center;
+}
+
+.text {
+  font-family: Roboto;
+  color: #FFFFFF;
+}
