@@ -35,6 +35,10 @@
     {
       "text": "I sneaked in here <br>      - Flustix", 
       "color": "#7289DA"
+    },
+    {
+      "text": "Our security has been compromised",
+      "color": "007DFF"
     }
   ]
 }
