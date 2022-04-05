@@ -8,6 +8,8 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="/nav.css">
+    <script src="snowo.js"></script>
+    <link rel="stylesheet" href="snowo.css">
     <script src="/main.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   </head>
@@ -22,7 +24,7 @@
     </div>
   </header>
   <br>
-  <body class="bg" onload="loadPage(''); setSubtitle();">
-    <div id="content"></div>
+  <body onload="loadPage(''); snowo(); setSubtitle();">
+    <div id="content" style="height: 100%;"></div>
   </body>
 </html>

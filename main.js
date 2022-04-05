@@ -1,13 +1,13 @@
 function loadPage(page) {
-  if(page == null || page == "") {
+  if (page == null || page == "") {
     page = window.location.pathname;
   }
-  if(page == "/") {
+  if (page == "/") {
     page = "/home";
     genSubtitle();
   }
   $("#content").load(page + "/page.html");
-  if(page == "/home") {
+  if (page == "/home") {
     page = "/";
   }
   window.history.pushState("", page, page);
@@ -20,12 +20,12 @@ function sleep(ms) {
 const getJSON = async url => {
   try {
     const response = await fetch(url);
-    if(!response.ok) {
+    if (!response.ok) {
       throw new Error(response.statusText);
     }
     const data = await response.json();
     return data;
-  } catch(error) {
+  } catch (error) {
     return error;
   }
 }
@@ -37,13 +37,13 @@ async function genSubtitle() {
   getJSON("/subtitles.json").then(data => {
     var subtitles = data.subtitles;
 
-    console.log("fetched subtitles, size: "+data.subtitles.length);
+    console.log("fetched subtitles, size: " + data.subtitles.length);
 
-    var subtitle_index = Math.floor(Math.random()*subtitles.length);
+    var subtitle_index = Math.floor(Math.random() * subtitles.length);
     var subtitle = subtitles[subtitle_index];
 
     current_subtitle = subtitle;
-    console.log("picked subtitle "+subtitle_index+": "+subtitle.text);
+    console.log("picked subtitle " + subtitle_index + ": " + subtitle.text);
     /*
     var subtitle_element = document.getElementsByClassName("subtitle")[0];
 
@@ -53,25 +53,25 @@ async function genSubtitle() {
     }
     */
   }).catch(error => {
-    console.error("failed to fetch subtitles: "+error);
+    console.error("failed to fetch subtitles: " + error);
   });
 }
 
 async function setSubtitle() {
   var subtitle = current_subtitle;
   var subtitle_element = document.getElementsByClassName("subtitle")[0];
-  while(subtitle_element == null) {
+  while (subtitle_element == null) {
     subtitle_element = document.getElementsByClassName("subtitle")[0];
     await sleep(1);
   }
-  
-  while(subtitle == null) {
+
+  while (subtitle == null) {
     subtitle = current_subtitle;
     await sleep(1);
   }
 
   subtitle_element.innerHTML = subtitle.text;
-  if(subtitle.color != null || subtitle.color != undefined) {
+  if (subtitle.color != null || subtitle.color != undefined) {
     subtitle_element.style.color = subtitle.color;
   }
 }

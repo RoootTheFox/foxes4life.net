@@ -34,15 +34,15 @@
     }, 
     {
       "text": "<a href=\"https://flustix.github.io\">I sneaked in here <br>      - Flustix</a>", 
-      "color": "#7289DA"
+      "color": "#e38d5f"
     },
     {
       "text": "Our security has been compromised",
-      "color": "007DFF"
+      "color": "#ffffff"
     }, 
     {
       "text": "<a href=\"https://flustix.github.io\">how did i get here<br>- flux</a>",
-      "color": "#7289da"
+      "color": "#e38d5f"
     } 
   ]
 }

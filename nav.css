@@ -1,10 +1,15 @@
 .navbar-chonk {
-  background-color: #0d1117;
+  left: 50%;
+  top: 15px;
+  transform: translateX(-50%);
+  max-width: max-content;
+  position: relative;
+  background-color: var(--col-navbg);
   height: 40px;
   max-height: 40px;
 }
 
-.navbar ul {
+.navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -20,14 +25,14 @@
   height: 40px;
   max-height: 40px;
   width: 80px;
-  background-color: #454545;
+  background-color: var(--col-navbg);
   animation: background-color;
   transition: 0.4s;
   cursor: pointer;
 }
 
 .navbar-content:hover {
-  background-color: #696969;
+  background-color: var(--col-navbg-hover);
 }
 
 .navbar a {
