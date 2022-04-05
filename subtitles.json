@@ -33,7 +33,7 @@
       "color": "#ffffff"
     }, 
     {
-      "text": "I sneaked in here <br>      - Flustix", 
+      "text": "<a href=\"https://flustix.github.io\">I sneaked in here <br>      - Flustix</a>", 
       "color": "#7289DA"
     },
     {
@@ -41,7 +41,7 @@
       "color": "007DFF"
     }, 
     {
-      "text": "how did i get here<br>- flux",
+      "text": "<a href=\"https://flustix.github.io\">how did i get here<br>- flux</a>",
       "color": "#7289da"
     } 
   ]
