@@ -5,6 +5,4 @@
 
 Options -Indexes
 
-RedirectMatch 403 ^/.git/?$
-RewriteRule ^.git/?$ - [F,L]
-ErrorDocument 403 default
+RedirectMatch 403 ^/.git/$
