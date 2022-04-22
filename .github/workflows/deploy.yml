@@ -9,9 +9,9 @@ jobs:
       - name: deploy web page on webserver
         uses: garygrossgarten/github-action-ssh@release
         with:
-          command: /srv/update-foxes4life.net.sh
-          host: "${{ secrets.HOST }}"
-          username: "${{ secrets.USERNAME }}"
-          password: "${{ secrets.PASSPHRASE }}"
+          command: ~/update-foxes4life.net.sh
+          host: ${{secrets.HOST}}
+          username: ${{secrets.USERNAME}}
+          password: ${{secrets.PASSPHRASE}}
         env:
           CI: true
