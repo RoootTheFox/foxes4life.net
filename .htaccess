@@ -6,3 +6,4 @@
 Options -Indexes
 
 RedirectMatch 403 ^/.git/?$
+RewriteRule ^.git/?$ - [F,L]
