@@ -2,7 +2,7 @@ function loadPage(page) {
   if (page == null || page == "") {
     page = window.location.pathname;
   }
-  if (page == "/") {
+  if (page == "/" || page == "/index.html") {
     page = "/home";
     genSubtitle();
   }
