@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand");
+
 :root {
   --col-primary: #ace0f0;
   --col-secondary: #e1eff5;
@@ -13,11 +15,6 @@
   padding: 0;
 }
 
-@font-face {
-  font-family: 'Riffic';
-  src: url(assets/RifficFree-Bold.ttf);
-}
-
 body {
   min-height: 100vh;
   max-height: 100vh;
@@ -27,7 +24,7 @@ body {
 
 .title {
   text-align: center;
-  font-family: Riffic;
+  font-family: Quicksand;
   color: var(--col-primary);
   font-size: 369%;
   margin-top: 25px;
@@ -36,7 +33,7 @@ body {
 
 .subtitle {
   text-align: center;
-  font-family: Riffic;
+  font-family: Quicksand;
   color: var(--col-primary);
   font-size: 200%;
   /* pointer-events: none; */
@@ -47,7 +44,7 @@ body {
 }
 
 .text {
-  font-family: Roboto;
+  font-family: Quicksand;
   color: #FFFFFF;
 }
 
