@@ -44,6 +44,6 @@
 
 .navbar li a {
   display: block;
-  color: #ffffff;
+  color: var(--ctp-mocha-text);
   text-align: center;
 }

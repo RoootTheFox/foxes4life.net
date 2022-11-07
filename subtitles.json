@@ -2,44 +2,44 @@
   "subtitles": [
     {
       "text": "i love foxes",
-      "color": "#ffffff"
+      "color": "var(--ctp-mocha-red)"
     },
     {
       "text": "owo",
-      "color": "#ffffff"
+      "color": "var(--ctp-mocha-pink)"
     },
     {
       "text": "uwu",
-      "color": "#ffffff"
+      "color": "var(--ctp-mocha-pink)"
     },
     {
       "text": ":sfyLurk:",
-      "color": "#ffffff"
+      "color": "var(--ctp-mocha-subtext1)"
     },
     {
       "text": "hi, i am fucking lazy",
-      "color": "#ffffff"
+      "color": "var(--ctp-mocha-subtext1)"
     },
     {
       "text": "subscribe to Samifying",
-      "color": "#ffffff"
+      "color": "var(--ctp-mocha-subtext1)"
     },
     {
       "text": "<a href=\"https://gangstacat.github.io\"> Gangsta Was Here </a>",
-      "color": "#ffffff"
+      "color": "var(--ctp-mocha-subtext1)"
     },
     {
       "text": "OMFG IT'S ROOOT! <br> - Gangsta",
-      "color": "#ffffff"
-    }, 
+      "color": "var(--ctp-mocha-subtext1)"
+    },
     {
-      "text": "<a href=\"https://flustix.github.io\">I sneaked in here <br>      - Flustix</a>", 
+      "text": "<a href=\"https://flustix.github.io\">I sneaked in here <br>      - Flustix</a>",
       "color": "#e38d5f"
     },
     {
       "text": "Our security has been compromised",
-      "color": "#ffffff"
-    }, 
+      "color": "var(--ctp-mocha-red)"
+    },
     {
       "text": "<a href=\"https://flustix.github.io\">how did i get here<br>- flux</a>",
       "color": "#e38d5f"
