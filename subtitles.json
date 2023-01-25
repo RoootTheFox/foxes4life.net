@@ -51,6 +51,10 @@
     {
       "text": "Hello there - PassiHD",
       "color": "#0097ff"
+    },
+    {
+      "text": "<a href=\"https://fomx.gay/@passihd\"> Follow me on mastodon - PassiHD</a>",
+      "color": "#0097ff"
     }
   ]
 }
